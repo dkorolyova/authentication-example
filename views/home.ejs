@@ -1,0 +1,28 @@
+<%- include("partials/header") %>
+
+
+<div class="centered">
+  <% if (user && user != undefined) { %>
+
+    <div class="container private-container">
+      <i class="fas fa-gift fa-7x"></i>
+      <h1 class="homepage-title">You've successfully authenticated!</h1>
+      <a class="btn btn-light btn-lg" href="/logout" role="button">Log out</a>
+    </div>
+
+  <% } else { %>
+
+    <div class="container homepage-container">
+      <i class="fas fa-user-secret fa-7x"></i>
+      <h1 class="homepage-title">Private</h1>
+      <p class="homepage-text">Use buttons below to authenticate yourself</p>
+      <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+      <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+    </div>
+
+  <% } %>
+
+
+</div>
+
+<%- include("partials/footer") %>

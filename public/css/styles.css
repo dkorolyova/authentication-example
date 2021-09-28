@@ -1,0 +1,58 @@
+
+body {
+  background-color: #f0f3f5;
+}
+
+/* home page */
+
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.homepage-container .btn {
+  margin: 0 20px;
+}
+
+.homepage-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.homepage-text {
+  font-size: 1.8rem;;
+  margin-bottom: 40px;
+}
+
+/* login/register page */
+.extra-container {
+  padding-top: 200px;
+}
+
+.title-word {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+div.account-check {
+  margin-top: 20px;
+}
+
+div.account-check p {
+  margin-bottom: 0;
+}
+
+div.account-check a {
+  text-decoration: none;
+  color: #495b69;
+  font-weight: bold;
+}
+
+div.account-check a:hover {
+  color: #000;
+}
